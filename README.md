@@ -11,11 +11,13 @@
 > Do not communicate by sharing memory; instead, share memory by communicating.
 
 [《Share Memory By Communicating》](https://blog.golang.org/codelab-share)
+
 [《Concurrency is not parallelism》](https://blog.golang.org/waza-talk)
 
 ## 2.Concurrency Pattern
 
 [《Go Concurrency Patterns: Context》](https://blog.golang.org/context)
+
 [《Go Concurrency Patterns: Pipelines and cancellation》](https://blog.golang.org/waza-talk)
 [《Go Concurrency Patterns: Timing out, moving on》](https://blog.golang.org/concurrency-timeouts)
 [《Advanced Go Concurrency Patterns》](https://blog.golang.org/io2013-talk-concurrency)
