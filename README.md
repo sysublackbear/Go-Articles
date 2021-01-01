@@ -9,3 +9,6 @@
 ## 1.Golang Design Cornerstone
 
 > Do not communicate by sharing memory; instead, share memory by communicating.
+
+[《Share Memory By Communicating》](https://blog.golang.org/codelab-share)
+《Concurrency is not parallelism》
