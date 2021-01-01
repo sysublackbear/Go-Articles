@@ -28,8 +28,8 @@
 + [《Don’t just check errors, handle them gracefully》](https://dave.cheney.net/2016/04/27/dont-just-check-errors-handle-them-gracefully)
 
 ## 4.Naming
-+[《Package names》](https://blog.golang.org/package-names)
-+[《Avoid package names like base, util, or common》](https://dave.cheney.net/2019/01/08/avoid-package-names-like-base-util-or-common)
++ [《Package names》](https://blog.golang.org/package-names)
++ [《Avoid package names like base, util, or common》](https://dave.cheney.net/2019/01/08/avoid-package-names-like-base-util-or-common)
 
 ## 5.Package Management
 + [《Using Go Modules》](https://blog.golang.org/using-go-modules)
