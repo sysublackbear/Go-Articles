@@ -11,4 +11,16 @@
 > Do not communicate by sharing memory; instead, share memory by communicating.
 
 [《Share Memory By Communicating》](https://blog.golang.org/codelab-share)
-《Concurrency is not parallelism》
+[《Concurrency is not parallelism》](https://blog.golang.org/waza-talk)
+
+## 2.Concurrency Pattern
+
+[《Go Concurrency Patterns: Context》](https://blog.golang.org/context)
+[《Go Concurrency Patterns: Pipelines and cancellation》](https://blog.golang.org/waza-talk)
+[《Go Concurrency Patterns: Timing out, moving on》](https://blog.golang.org/concurrency-timeouts)
+[《Advanced Go Concurrency Patterns》](https://blog.golang.org/io2013-talk-concurrency)
+[《Context isn’t for cancellation》](https://dave.cheney.net/2017/08/20/context-isnt-for-cancellation)
+[《Never start a goroutine without knowing how it will stop》](https://dave.cheney.net/2016/12/22/never-start-a-goroutine-without-knowing-how-it-will-stop)
+[《Rethinking Classical Concurrency Patterns》](https://drive.google.com/file/d/1nPdvhB0PutEJzdCq5ms6UI58dp50fcAN/view)
+[《Timeouts and Deadlines》](https://github.com/golang/go/wiki/Timeouts)
+
