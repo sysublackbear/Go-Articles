@@ -65,7 +65,7 @@
 + [Dave Cheney](https://dave.cheney.net/)
 
 
-
+以上内容转载自[cyningsun的博客文章:Golang进阶文章一览](https://www.cyningsun.com/10-15-2020/advanced-golang-article.html)，作者接下来会对上面的文章做一个翻译，持续更新中...
 
 
 
