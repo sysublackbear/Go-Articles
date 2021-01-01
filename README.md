@@ -14,14 +14,58 @@
 + [《Concurrency is not parallelism》](https://blog.golang.org/waza-talk)
 
 ## 2.Concurrency Pattern
++ [《Go Concurrency Patterns: Context》](https://blog.golang.org/context)
++ [《Go Concurrency Patterns: Pipelines and cancellation》](https://blog.golang.org/waza-talk)
++ [《Go Concurrency Patterns: Timing out, moving on》](https://blog.golang.org/concurrency-timeouts)
++ [《Advanced Go Concurrency Patterns》](https://blog.golang.org/io2013-talk-concurrency)
++ [《Context isn’t for cancellation》](https://dave.cheney.net/2017/08/20/context-isnt-for-cancellation)
++ [《Never start a goroutine without knowing how it will stop》](https://dave.cheney.net/2016/12/22/never-start-a-goroutine-without-knowing-how-it-will-stop)
++ [《Rethinking Classical Concurrency Patterns》](https://drive.google.com/file/d/1nPdvhB0PutEJzdCq5ms6UI58dp50fcAN/view)
++ [《Timeouts and Deadlines》](https://github.com/golang/go/wiki/Timeouts)
 
-[《Go Concurrency Patterns: Context》](https://blog.golang.org/context)
+## 3.Error Handling
++ [《Errors are values》](https://blog.golang.org/errors-are-values)
++ [《Don’t just check errors, handle them gracefully》](https://dave.cheney.net/2016/04/27/dont-just-check-errors-handle-them-gracefully)
 
-[《Go Concurrency Patterns: Pipelines and cancellation》](https://blog.golang.org/waza-talk)
-[《Go Concurrency Patterns: Timing out, moving on》](https://blog.golang.org/concurrency-timeouts)
-[《Advanced Go Concurrency Patterns》](https://blog.golang.org/io2013-talk-concurrency)
-[《Context isn’t for cancellation》](https://dave.cheney.net/2017/08/20/context-isnt-for-cancellation)
-[《Never start a goroutine without knowing how it will stop》](https://dave.cheney.net/2016/12/22/never-start-a-goroutine-without-knowing-how-it-will-stop)
-[《Rethinking Classical Concurrency Patterns》](https://drive.google.com/file/d/1nPdvhB0PutEJzdCq5ms6UI58dp50fcAN/view)
-[《Timeouts and Deadlines》](https://github.com/golang/go/wiki/Timeouts)
+## 4.Naming
++[《Package names》](https://blog.golang.org/package-names)
++[《Avoid package names like base, util, or common》](https://dave.cheney.net/2019/01/08/avoid-package-names-like-base-util-or-common)
+
+## 5.Package Management
++ [《Using Go Modules》](https://blog.golang.org/using-go-modules)
+
+## 6.Logging
++ [《Let’s talk about logging》](https://dave.cheney.net/2015/11/05/lets-talk-about-logging)
+
+## 7.Code Style
++ [《SOLID Go Design》](https://dave.cheney.net/2016/08/20/solid-go-design)
++ [《Do not fear first class functions》](https://dave.cheney.net/2016/11/13/do-not-fear-first-class-functions)
++ [《The Zen of Go》](https://dave.cheney.net/2020/02/23/the-zen-of-go)
++ [《Clear is better than clever》](https://dave.cheney.net/2019/07/09/clear-is-better-than-clever)
++ [《Go, without package scoped variables》](https://dave.cheney.net/2017/06/11/go-without-package-scoped-variables)
++ [《Should methods be declared on T or *T》](https://dave.cheney.net/2016/03/19/should-methods-be-declared-on-t-or-t)
++ [《Simplicity and collaboration》](https://dave.cheney.net/2015/03/08/simplicity-and-collaboration)
+
+## 8.Debug&Profile&Diagnostics
++ [《Profiling Go Programs》](https://blog.golang.org/pprof)
++ [《Diagnostics》](https://golang.org/doc/diagnostics.html)
++ [《Stack Traces In Go》](https://www.ardanlabs.com/blog/2015/01/stack-traces-in-go.html)
+
+## 9.TDD
++ [《Prefer table driven tests》](https://dave.cheney.net/2019/05/07/prefer-table-driven-tests)
+
+## 10.Golang Struct
++ [《If a map isn’t a reference variable, what is it?》](https://dave.cheney.net/2017/04/30/if-a-map-isnt-a-reference-variable-what-is-it)
++ [《Slices from the ground up》](https://dave.cheney.net/2018/07/12/slices-from-the-ground-up)
+
+## 11.Website
++ [Gopher Academy Blog](https://blog.gopheracademy.com/)
++ [The official Go Blog](https://blog.golang.org/)
++ [Go Wiki](https://github.com/golang/go/wiki)
++ [Dave Cheney](https://dave.cheney.net/)
+
+
+
+
+
 
