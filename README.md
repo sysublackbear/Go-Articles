@@ -10,9 +10,8 @@
 
 > Do not communicate by sharing memory; instead, share memory by communicating.
 
-[《Share Memory By Communicating》](https://blog.golang.org/codelab-share)
-
-[《Concurrency is not parallelism》](https://blog.golang.org/waza-talk)
++ [《Share Memory By Communicating》](https://blog.golang.org/codelab-share)
++ [《Concurrency is not parallelism》](https://blog.golang.org/waza-talk)
 
 ## 2.Concurrency Pattern
 
