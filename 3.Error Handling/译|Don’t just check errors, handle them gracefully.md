@@ -70,7 +70,61 @@ if err == ErrSomething { … }
 
 ## Error types
 
+错误类型是我关于Go异常处理要讨论的第二方面。
 
+```go
+if err, ok := err.(SomeType); ok { … }
+```
+
+错误类型是指你创建了实现`error`接口的特定类型。例如，`MyError`类型标记了文件名，行数以及信息去标记发生的错误。
+
+```go
+type MyError struct {
+        Msg string
+        File string
+        Line int
+}
+
+func (e *MyError) Error() string { 
+        return fmt.Sprintf("%s:%d: %s”, e.File, e.Line, e.Msg)
+}
+
+return &MyError{"Something happened", “server.go", 42}
+```
+
+由于`MyError`是一个`error`类型，调用者可以使用断言从错误中提取额外的上下文信息。
+
+```go
+err := something()
+switch err := err.(type) {
+case nil:
+        // call succeeded, nothing to do
+case *MyError:
+        fmt.Println(“error occurred on line:”, err.Line)
+default:
+// unknown error
+}
+```
+
+对于`error`值，`error`类型的一大提升是它具备包装一个潜在的错误去提供更多上下文信息的能力。
+
+一个很好的例子就是`os.PathError`类型，它包装了潜在的下游错误。
+
+```go
+// PathError records an error and the operation
+// and file path that caused it.
+type PathError struct {
+        Op   string
+        Path string
+        Err  error // the cause
+}
+
+func (e *PathError) Error() string
+```
+
+
+
+### Problems with error types
 
 
 
