@@ -40,7 +40,7 @@
 ## 7.Code Style
 + [《SOLID Go Design》](https://dave.cheney.net/2016/08/20/solid-go-design)
 + [《Do not fear first class functions》](https://dave.cheney.net/2016/11/13/do-not-fear-first-class-functions)
-+ [《The Zen of Go》](https://dave.cheney.net/2020/02/23/the-zen-of-go)
++ [《The Zen of Go》](https://the-zen-of-go.netlify.app/)
 + [《Clear is better than clever》](https://dave.cheney.net/2019/07/09/clear-is-better-than-clever)
 + [《Go, without package scoped variables》](https://dave.cheney.net/2017/06/11/go-without-package-scoped-variables)
 + [《Should methods be declared on T or *T》](https://dave.cheney.net/2016/03/19/should-methods-be-declared-on-t-or-t)
