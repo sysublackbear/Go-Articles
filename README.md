@@ -15,7 +15,7 @@
 
 ## 2.Concurrency Pattern
 + [《Go Concurrency Patterns: Context》](https://blog.golang.org/context)
-+ [《Go Concurrency Patterns: Pipelines and cancellation》](https://blog.golang.org/waza-talk)
++ [《Go Concurrency Patterns: Pipelines and cancellation》](https://blog.golang.org/pipelines)
 + [《Go Concurrency Patterns: Timing out, moving on》](https://blog.golang.org/concurrency-timeouts)
 + [《Advanced Go Concurrency Patterns》](https://blog.golang.org/io2013-talk-concurrency)
 + [《Context isn’t for cancellation》](https://dave.cheney.net/2017/08/20/context-isnt-for-cancellation)
