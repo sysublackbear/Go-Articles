@@ -1,5 +1,7 @@
 # 译|Using Go Modules
 
+## Introduction
+
 Go 1.11 和 1.12 初步包含了 [对模块的支持](https://golang.org/doc/go1.11#modules)，Go 的 [新依赖管理系统](https://learnku.com/docs/go-blog/versioning-proposal) 使依赖版本信息明确且易于管理。本文介绍了开始使用模块所需要的基本操作。
 
 模块是  [Go packages](https://golang.org/ref/spec#Packages) 的集合，以 `go.mod` 文件的形式存储在文件树的根目录。`go.mod` 定义了模块的 *模块路径* （根目录的导入路径）和 *依赖项需求* （成功构建所需要的其他模块）。每一个依赖项需求都以模块路径和特定 [语义版本](http://semver.org/) 的形式给出。
