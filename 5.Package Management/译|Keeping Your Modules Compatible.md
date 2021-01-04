@@ -10,7 +10,7 @@
 
 
 
-## Adding to a function
+## Adding to a function（对函数的添加）
 
 通常情况下，对函数的破坏性变更以函数的新参数的形式出现。我们将描述一些处理这种变化的方法，但首先让我们看看一种不起作用的技术。
 
@@ -112,7 +112,7 @@ notgrpc.Dial("some-target", &notgrpc.Options{
 
 
 
-## Working with interfaces
+## Working with interfaces（使用接口）
 
 有时，新特性需要对公开的接口进行更改：例如，需要用新方法扩展接口。直接添加到接口是一个破坏性的变化，但是，我们如何在公开的接口上支持新方法呢？
 
@@ -169,13 +169,13 @@ type TB interface {
 
 这个主题在 Jonathan Amsterdam 的“Detecting Incompatible API Changes” 演讲中也有更详细的探讨([视频](https://www.youtube.com/watch?v=JhdL5AkH-AQ)、[幻灯片](https://github.com/gophercon/2019-talks/blob/master/JonathanAmsterdam-DetectingIncompatibleAPIChanges/slides.pdf))。
 
-## Add configuration methods
+## Add configuration methods（添加配置方法）
 
 到目前为止，我们已经讨论了公开的中断更改，在这种情况下，更改类型或函数会导致用户的代码停止编译。但是，行为更改也会破坏用户，即使用户代码继续编译。例如，许多用户期望 [`json.decoder`](https://pkg.go.dev/encoding/json#Decoder) 忽略 JSON 中不存在于参数结构中的字段。当 Go 团队想在这种情况下返回一个错误时，他们必须小心。如果没有选择机制，就意味着许多依赖这些方法的用户可能会收到以前没有的错误。
 
 因此，他们没有更改所有用户的行为，而是向 `Decoder` 结构体：[`Decoder.DisallowUnknownFields`](https://pkg.go.dev/encoding/json#Decoder.DisallowUnknownFields) 中添加了一个配置方法。调用此方法会选择用户加入新行为，但不这样做会保留现有用户的旧行为。
 
-## Maintaining struct compatibility
+## Maintaining struct compatibility（维护结构兼容性）
 
 我们在上面看到，对函数签名的任何更改都是破坏性的更改。使用 structs 的情况要好得多。如果您有一个导出的结构类型，您几乎总是可以添加一个字段或删除一个未导出的字段，而不会破坏兼容性。添加字段时，请确保其零值有意义并保留旧的行为，以便不设置新字段的现有代码能够继续工作。
 
