@@ -123,6 +123,7 @@ func handleSearch(w http.ResponseWriter, req *http.Request) {
         ctx, cancel = context.WithCancel(context.Background())
     }
     defer cancel() // Cancel ctx as soon as handleSearch returns.
+    ......
 ```
 
 处理程序从 `request` 中提取查询关键字，并通过调用 `userip` 包来提取客户端的IP地址。 后端请求需要客户端的IP地址，因此`handleSearch`将其附加到`ctx`：
